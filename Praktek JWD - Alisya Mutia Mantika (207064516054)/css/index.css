@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    background-color: #FDF7E4;
+}
+
+/* Mengatur Style Nav bar*/
+nav{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    background-color: #7C93C3;
+    color: white;
+    height: 80px;
+}
+ul{
+    display: flex;
+}
+li{
+    width: auto;
+    border-width: thin;
+}
+li:hover{
+    background-color: #FDF7E4;
+    color: black;
+    border-radius: 10px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+}
+a.navbar-brand{
+    color: white;
+}
+.navbar-collapse {
+    display: flex !important; /* stylelint-disable-line declaration-no-important*/
+    flex-basis: auto;
+  }
+footer{
+    background-color: #7C93C3;
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    justify-content: center;
+}

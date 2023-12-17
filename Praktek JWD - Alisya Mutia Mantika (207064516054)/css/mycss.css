@@ -1,0 +1,75 @@
+
+.container {
+    background-color: rgb(254, 255, 255);
+}
+
+.my-small-btn {
+    margin-bottom:20px ;
+}
+
+.nav-tab {
+    align-items: center;
+    margin: 0;
+    display:flex;
+}
+
+footer{
+    display: flex;
+    background-color: #3F72AF;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.row{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 0;
+    gap:5px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.sides{
+    display: flex;
+    gap: 20px
+}
+.btnbea{
+    display: flex;
+    background-color: #3F72AF;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+}
+.bg-primary{
+    background-color: #3F72AF !important;
+    color: white;
+    width: 100%;
+}
+body{
+    margin:0;
+}
+.tab-content{
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+form{
+    border-style: groove;
+    padding: 15px;
+    margin-bottom: 60px;
+}
+btn{
+    gap: 10px;
+}
+.row.grid-item.mt-3{
+    border-bottom: 10px;
+    box-shadow: -1px 3px 5px 0px rgba(0,0,0,0.67);
+    border-radius: 10px;
+    padding: 10px;
+}
